@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="./css/bin/reset.css" />
+	<link rel="stylesheet" href="./css/src/collection_in.css">
+	<script src="./js/jquery/jquery-1.12.4.min.js"></script>
+	<script src="./js/jquery/jquery-ui.min.js"></script>
+	<title>collection</title>
+</head>
+<body>
+ <div id="container">
+       <!-- header -->
+        <header id="header">
+          <h1><span class="hidden">logo</span></h1>
+           <nav>
+           <ul class="unb">
+               <li><a href="#">My |</a></li>
+               <li><a href="./login.html">Login</a></li>
+           </ul>
+           <ul class="gnb">
+               <li><a href="./magazine.html">Magazine</a></li>
+               <li><a href="./collection.html">Collection</a></li>
+               <li><a href="#">Place/Jewelry</a></li>
+               <li><a href="./event.html">Event</a></li>
+           </ul>
+           </nav>
+        </header>
+        
+        <h2 class="title">Collection</h2>
+        
+        <div class="line_box"><span class="hidden">line</span></div>
+        
+        <select name="" id="">
+                <option value="twelve">12월호</option>
+                <option value="one">1월호</option>
+                <option value="two">2월호</option>
+                <option value="three">3월호</option>
+                <option value="four">4월호</option>
+                <option value="five">5월호</option>
+                <option value="six">6월호</option>
+                <option value="seven">7월호</option>
+                <option value="eight">8월호</option>
+                <option value="nine">9월호</option>
+                <option value="ten">10월호</option>
+                <option value="eleven">11월호</option>
+        </select>
+        
+     <div id="arrow_left"><span class="hidden">왼쪽 화살표</span></div>
+     <div id="arrow_right"><span class="hidden">오른쪽 화살표</span></div>
+        
+        
+        <article id="article">
+            <div class="x_icon"><span class="hidden">Xicon</span></div>
+            <ul>
+                <li class="img_01"><span class="hidden">이미지01</span></li>
+                <li class="img_02"><span class="hidden">이미지02</span></li>
+            </ul>
+        </article>
+        
+            <!-- footer -->
+    <footer id="footer">
+            <div class="logo_01"></div>
+            <div class="info"></div>
+    </footer>
+        
+ 
+ 
+ 
+ </div>
+ <script>
+    $(function(){
+        $('.x_icon').on('click',function(){
+            $(this).parent().fadeOut();
+        });
+    });  
+ </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

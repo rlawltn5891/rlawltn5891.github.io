@@ -1,0 +1,47 @@
+/* mypage_01 .css */
+
+#container{min-width: 960px; width:auto; height: auto; margin: 0 auto; /*background-color: #aaa;*/}
+
+/* header영역------------------------------------------------------ */
+#header{min-width: 960px; max-width:1920px; width:auto; height: 100px; background-color: #662727; margin: 0 auto; position: relative;}
+#header::before{content:" "; display: block; width: 100vw; height: 100%; background-color:inherit;
+    position: absolute; z-index: -100; top: 0; left: 50%; margin-left: -50vw;}
+h1{width: 242px; height: 90px; background-image: url(../../img/logo_01.png); background-repeat: no-repeat; margin-left: 380px; float: left; margin-top: 25px; position: absolute;}
+h1>a{width: 242px; height: 90px; display: block;}
+
+nav{width: 840px; height: 100px; float: right; margin-right: 380px;}
+
+nav>.unb{width: 70px; height: 18px; float: right; margin-top: 20px;}
+nav>.unb>li{float: left;}
+nav>.unb>li>a{color: #fff; font-size: 16px;}
+
+nav>.gnb{width: 800px; height: 24px; float: right; margin-top: 36px;}
+nav>.gnb>li{float: left; margin-left: 100px;}
+nav>.gnb>li>a{color: #fff; font-size: 24px;}
+
+/*nav>.gnb>li>a:hover{color: #fff; font-weight: bold;}*/
+
+.title{width: 112px; height: 24px; font-size: 24px; color: #662727; margin-left: 480px; margin-top: 34px;}
+.line_box{width: 960px; height: 3px; margin: 0 auto; border-top: 3px solid #662727; margin-top: 30px;}
+
+#section{width: 348px; height: 400px; margin: 0 auto; margin-top: 75px;}
+#section .id{width: 348px; height: 110px;}
+#section .id .icon{width: 75px; height: 75px; background-image: url(../../img/my/my_icon.png); float: left;}
+#section .id .text_01{width: 100px; color: #662727; float: left; margin-left: 15px; margin-top: 20px;}
+#section .id .text_02{width: 245px; float: left; margin-left: 15px; margin-top: 10px; font-size: 0.9em;}
+
+#section .coll_box{width: 348px; height: 154px; border-top: 1px solid #662727;}
+#section .coll_box .text_03{width: 150px; margin-top: 5px;}
+#section .coll_box li{width: 100px; height: 100px; float: left; margin-top: 10px;}
+#section .coll_box .coll_box_01{background-image: url(../../img/my/my_01.png);}
+#section .coll_box .coll_box_02{background-image: url(../../img/my/my_02.png); margin-left: 24px;}
+#section .coll_box .coll_box_03{background-image: url(../../img/my/my_03.png); float: right;}
+
+#section .list ul{width: 348px; height: 108px;}
+#section .list ul li{width: 348px; height: 36px; border-top: 1px solid #662727; box-sizing: border-box; padding-top: 3px;}
+#section .list ul li h{font-weight: bold; float: left; }
+#section .list ul li p{width: 16px; height: 16px; background-color: #662727; border-radius: 1rem; float: left; margin-left: 330px; margin-top: -20px;}
+
+#footer{width: 100%; height: 300px; margin: 0 auto; margin-top: 100px; background-color: #787878;}
+#footer>.logo_01{width: 1200px; height: 138px; background-image: url(../../img/footer_01.jpg); margin: 0 auto;}
+#footer>.info{width: 100%; height: 159px;  background-image: url(../../img/footer_02.jpg); background-repeat: no-repeat; background-position: center; border-top: 3px solid #fff;}

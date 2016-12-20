@@ -1,0 +1,82 @@
+/* sign_up_02.css */
+
+#container{min-width: 960px; width:auto; height: auto; margin: 0 auto; /*background-color: #aaa;*/}
+
+/* header영역------------------------------------------------------ */
+#header{min-width: 960px; max-width:1920px; width:auto; height: 100px; background-color: #662727; margin: 0 auto; position: relative;}
+#header::before{content:" "; display: block; width: 100vw; height: 100%; background-color:inherit;
+    position: absolute; z-index: -100; top: 0; left: 50%; margin-left: -50vw;}
+h1{width: 242px; height: 90px; background-image: url(../../img/logo_01.png); background-repeat: no-repeat; margin-left: 380px; float: left; margin-top: 25px;}
+h1>a{width: 242px; height: 90px; display: block;}
+
+nav{width: 840px; height: 100px; float: right; margin-right: 380px;}
+
+nav>.unb{width: 70px; height: 18px; float: right; margin-top: 20px;}
+nav>.unb>li{float: left;}
+nav>.unb>li>a{color: #fff; font-size: 16px;}
+
+nav>.gnb{width: 800px; height: 24px; float: right; margin-top: 36px;}
+nav>.gnb>li{float: left; margin-left: 100px;}
+nav>.gnb>li>a{color: #fff; font-size: 24px;}
+
+
+/*nav>.gnb>li>a:hover{color: #fff; font-weight: bold;}*/
+
+.title{width: 250px; height: 22px; margin-top: 110px; margin-left: 471.5px;}
+.email{width: 250px; height: 20px; font-size: 20px; color: #662727;}
+
+.section_01{width: 960px; height: 127px;  margin: 0 auto; border-top: 3px solid #662727; border-bottom: 3px solid #662727; margin-top: 30px; box-sizing: border-box; padding-top: 42px; padding-left: 190px;}
+.section_01 > .info{width: 300px; height: 25px; font-size: 1rem; }
+.section_01 > .ok{width: 300px; height: 20px; font-size: 0.8em; padding-left: 60px; }
+
+
+.section_02{width: 960px; height: 400px; margin: 0 auto;
+            border-bottom: 3px solid #662727; box-sizing: border-box;
+            padding-top: 45px;}
+.section_02>.title_01{width: 200px; height: 18px; margin-left: 190px;
+                      font-size: 1rem; float: left; }
+.section_02  label{font-size: 0.9rem; margin-left: 100px;}
+
+.s_title{margin-top: 20px; font-size: 0.9em; margin-left: 190px;}
+textarea{width: 580px; height: 80px; overflow-y: scroll; background-color: transparent; margin-bottom: 10px; font-size: 0.9em; margin-top: 10px; margin-left: 195px;}
+.s_title_02{margin-top: 20px; font-size: 0.9em; margin-left: 190px;}
+
+.section_03{width: 960px; height: 440px;  margin: 0 auto; box-sizing: border-box; padding-top: 30px;}
+.section_03>.title_02{width: 200px; height: 18px; margin-left: 190px; font-size: 1rem; }
+
+
+.section_03 .box_01{width: 960px; height: 270px; margin: 0 auto; box-sizing: border-box; padding-left: 190px; padding-top: 10px;}
+.section_03> form .box_01 dl{width: 580px; height: 270px; float: left;}
+.section_03> form dt{width: 180px; height: 36px;  float: left; box-sizing: border-box; padding-top: 10px; margin-top: 25px;}
+.section_03> form dt>label{font-size: 0.9rem; font-weight: bold; margin-left: 15px;}
+.section_03> form dd{width: 380px; height: 36px; float: left; margin-left: 20px; margin-top: 25px;}
+.section_03> form dd>input{width: 380px; height: 36px; background-color: #ebebeb;}
+.section_03> form dd>select{width: 100px; height: 36px; float: left;}
+.section_03> form dd>input#number{width: 260px; margin-left: 20px;}
+
+.section_03 .box_02{width: 580px; height: 80px;  float: left; box-sizing: border-box; padding-left: 190px; }
+/*.section_03 .box_02 dl{width: 580px; height: 80px; float: left;}*/
+/*.section_03 .box_02 legend{width: 180px; height: 50px; font-size: 0.9rem; font-weight: bold; margin-left: 15px; box-sizing: border-box; padding-top: 30px;}*/
+.section_03 .box_02 legend{width: 180px; height: 36px; font-size: 0.9em; margin-left: 15px; font-weight: bold; padding-top: 30px; float: left;}
+.section_03 .box_02 h5{width: 70px; height: 36px; float: left; font-size: 0.9em; margin-top: 30px;}
+.section_03 .box_02 label{font-size: 0.9rem; }
+.section_03 .box_02 input{width: 15px; height: 15px; margin-top: 27px;}
+
+.section_03 .box_03{width: 300px; height: 80px; float: left;}
+.section_03 .box_03 h5{width: 40px; height: 36px; float: left; font-size: 0.9em; margin-top: 30px; margin-left: 30px;}
+.section_03 .box_03 label{font-size: 0.9em; margin-left: 6px;}
+.section_03 .box_03 input{width: 15px; height: 15px; margin-top: 27px;}
+
+.section_03 .btn label{width: 0; height: 0; }
+.section_03 .btn input{width: 150px; height: 36px; 
+                       background-color: #662727; color: #fff;
+                       float: right; margin-right: 120px; 
+                       font-weight: bold;}
+
+/* footer영역--------------------------------------------------------------- */
+#footer{width: 100%; height: 300px; margin: 0 auto; margin-top: 100px; background-color: #787878;}
+#footer>.logo_01{width: 1200px; height: 138px; background-image: url(../../img/footer_01.jpg); margin: 0 auto;}
+#footer>.info{width: 100%; height: 159px;  background-image: url(../../img/footer_02.jpg); background-repeat: no-repeat; background-position: center; border-top: 3px solid #fff;}
+
+
+

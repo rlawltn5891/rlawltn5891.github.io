@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="./css/bin/reset.css" />
+	<link rel="stylesheet" href="./css/src/sign_up_01.css">
+	<script src="./js/jquery/jquery-1.12.4.min.js"></script>
+	<script src="./js/jquery/jquery-ui.min.js"></script>
+	<title>회원가입</title>
+</head>
+<body>
+ <div id="container">
+       <!-- header -->
+        <header id="header">
+          <h1><a href="./index.html"><span class="hidden">logo</span></a></h1>
+           <nav>
+           <ul class="unb">
+               <li><a href="./mypage_01.html">My |</a></li>
+               <li><a href="./login.html">Login</a></li>
+           </ul>
+           <ul class="gnb">
+               <li><a href="./magazine.html">Magazine</a></li>
+               <li><a href="./collection.html">Collection</a></li>
+               <li><a href="./pj.html">Place/Jewelry</a></li>
+               <li><a href="./event.html">Event</a></li>
+           </ul>
+           </nav>
+        </header>
+        
+        <div class="title">
+          <h2>이메일 간편가입</h2>
+        </div>
+        
+        <div id="section">
+            <h3 class="s_info">- 개인정보 입력</h3>
+            <form action="">
+                <fieldset class="box_01">
+                    <label for="email">이메일 아이디</label>
+                    <input type="text" name="email" id="email" value="">
+                </fieldset>
+                <fieldset class="box_02">
+                    <label for="email">@</label>
+                    <input type="text" name="email" id="email" value="">
+                </fieldset>
+                    <select name="" id="">
+                      <option value="go">직접입력</option>
+                      <option value="naver">naver.com</option>
+                      <option value="daum">hanmail.net</option>
+                      <option value="google">gmail.com</option>
+                        <option value="nate">nate.com</option>
+                    </select>
+            </form>
+        </div>
+        
+        <div id="btn">
+            <form action="">
+                <fieldset class="btn_01">
+                    <label for="cancle"></label>
+                    <input type="reset" name="cancle" id="cancle" value="취소하기">
+                </fieldset>
+                <fieldset class="btn_02">
+                    <label for="ok"></label>
+                    <input type="submit" name="ok" id="ok" value="이메일 인증">
+                </fieldset>
+            </form>
+        </div>
+        
+         <!-- footer -->
+        <footer id="footer">
+            <div class="logo_01"></div>
+            <div class="info"></div>
+        </footer>
+        
+ </div>
+ <script src="./js/src/sign_up_01.js"></script>
+</body>
+</html>

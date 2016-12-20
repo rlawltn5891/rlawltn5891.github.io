@@ -1,0 +1,110 @@
+/* mywedding.css */
+
+#container{min-width: 960px; width:auto; height: auto; margin: 0 auto; /*background-color: #aaa;*/}
+
+/* header영역------------------------------------------------------ */
+#header{min-width: 960px; max-width:1920px; width:auto; height: 100px; background-color: #662727; margin: 0 auto; position: relative;}
+#header::before{content:" "; display: block; width: 100vw; height: 100%; background-color:inherit;
+    position: absolute; z-index: -100; top: 0; left: 50%; margin-left: -50vw;}
+h1{width: 242px; height: 90px; background-image: url(../../img/logo_01.png); background-repeat: no-repeat; margin-left: 380px; float: left; margin-top: 25px; position: absolute;}
+h1>a{width: 242px; height: 90px; display: block;}
+
+nav{width: 840px; height: 100px; float: right; margin-right: 380px;}
+
+nav>.unb{width: 70px; height: 18px; float: right; margin-top: 20px;}
+nav>.unb>li{float: left;}
+nav>.unb>li>a{color: #fff; font-size: 16px;}
+
+nav>.gnb{width: 800px; height: 24px; float: right; margin-top: 36px;}
+nav>.gnb>li{float: left; margin-left: 100px;}
+nav>.gnb>li>a{color: #fff; font-size: 24px;}
+
+
+/*nav>.gnb>li>a:hover{color: #fff; font-weight: bold;}*/
+
+
+/* addBanner영역----------------------------------------------------------------- */
+#addBanner{width: 100%; height: 700px; 
+           position: relative; margin-top: 45px; }
+.btn{width: 100%; height: 0; position: absolute; top: 50%;
+     margin-top: -80px; left: 0; z-index: 100;}
+  .btn>button{width: 100px; height: 160px; transition:all 0.5s;
+              font-size: 9rem; font-weight: bold; 
+              background-color:transparent; color: #662727;}
+		.lbtn{float: left;}
+		.rbtn{float: right;}
+
+ .bannerBox{/*width: 500%;*/ height: 100%; margin-left: -100%;}
+
+ .bannerBox>li{/*width:calc(100% / 5);*/
+		height: 100%; float: left; font-size: 3rem;}
+  .bannerBox .banner_area_01{background-image: url(../../img/addbanner_04.png);
+                             background-repeat: no-repeat;}
+  .bannerBox .banner_area_02{background-image: url(../../img/addbanner_05.png);}
+  .bannerBox .banner_area_03{background-image: url(../../img/addbanner_07.png);}
+  .bannerBox .banner_area_04{background-image: url(../../img/addbanner_08.png);}
+  .bannerBox .banner_area_05{background-image: url(../../img/addbanner_09.png);}
+
+
+.indicator{width: 50%; height: 1.5rem; left: 5%; position: absolute; bottom: 1rem;}
+.indicator>li{width: 1.5rem; height: 1.5rem; background-color: #fff; 
+              float: left; cursor: pointer;margin-right: 2rem; line-height: 1.5;
+              text-align: center; overflow: hidden; border-radius: 1rem;}
+
+
+/* p/j영역------------------------------------------------- */
+#place_j{width: 960px; height: 400px; margin: 0 auto; margin-top: 80px; box-sizing: border-box; padding:12px 15px; }
+
+.p_title{width: 152px; height: 32px; font-size: 22px; border-top: 3px solid #662727; margin-top: -40px; }
+
+#place_j>.big_box{width: 930px; height: 378px; }
+
+#place_j .box_a{width: 200px; height: 378px; background-image: url(../../img/main_p_01.jpg); float: left;}
+#place_j .box_a:hover{background-image: url(../../img/main_p_01_hover.png);}
+#place_j .box_a>a{width: 200px; height: 378px; display: block; }
+
+#place_j .all_box{width: 510px; height: 378px; float: left; margin-left: 10px;}
+#place_j .all_box li{float: left;}
+#place_j .all_box>.box_01{width: 510px; height: 203px; background-image: url(../../img/main_p_03.jpg);}
+#place_j .all_box>.box_01:hover{background-image: url(../../img/main_p_03_hover.png);}
+#place_j .all_box>.box_01 a{width: 510px; height: 203px; display: block;}
+#place_j .all_box>.box_02{width: 160px; height: 160px; background-image: url(../../img/main_p_04.png); margin-top: 15px;}
+#place_j .all_box>.box_02:hover{background-image: url(../../img/main_p_04_hover.png);}
+#place_j .all_box>.box_02 a{width: 160px; height: 160px; display: block;}
+#place_j .all_box>.box_03{width: 160px; height: 160px; background-image: url(../../img/main_p_05.png); margin-left: 15px; margin-top: 15px;}
+#place_j .all_box>.box_03:hover{background-image: url(../../img/main_p_05_hover.png);}
+#place_j .all_box>.box_04{width: 160px; height: 160px; background-image: url(../../img/main_p_06.png); margin-left: 15px; margin-top: 15px;}
+#place_j .all_box>.box_04:hover{background-image: url(../../img/main_p_06_hover.png);}
+
+
+#place_j .box_b{width: 200px; height: 378px; background-image: url(../../img/main_p_02.jpg); float: right;}
+#place_j .box_b:hover{background-image: url(../../img/main_p_02_hover.png);}
+
+
+/* hot영역------------------------------------------------------------------- */
+#issue{width: 960px; height: 450px; margin: 0 auto; margin-top: 104px; box-sizing: border-box; padding: 16px 15px;}
+.h_title{width: 152px; height: 32px; font-size: 22px; border-top: 3px solid #662727; margin-top: -40px;}
+#issue>.h_box{width: 930px; height: 418px; }
+#issue>.h_box>.box_01{width: 450px; height: 418px; background-image: url(../../img/hot_01.png); float: left;}
+#issue>.h_box>.box_01:hover{background-image: url(../../img/hot_01_hover.png);}
+#issue>.h_box>.box_01 a{width: 450px; height: 418px; display: block;}
+#issue>.h_box>.box_02{width: 450px; height: 200px; background-image: url(../../img/hot_02.png); float: right;}
+#issue>.h_box>.box_02:hover{background-image: url(../../img/hot_02_hover.png);}
+#issue>.h_box>.box_03{width: 450px; height: 200px; background-image: url(../../img/hot_03.png); float: right; margin-top: 18px;}
+#issue>.h_box>.box_03:hover{background-image: url(../../img/hot_03_hover.png);}
+
+
+/* facebook영역--------------------------------------------------------------- */
+#faceBook{width: 960px; height: 100px; margin: 0 auto; margin-top: 104px; box-sizing: border-box; padding-left: 15px;}
+.f_title{width: 152px; height: 32px; font-size: 22px; border-top: 3px solid #662727; margin-top: -40px;}
+.id{width: 150px; height: 12px; font-size: 14px; float: left; margin-left: 15px; margin-top: 10px;}
+.id a{width: 150px; height: 12px; display: block;}
+.logo{width: 100px; height: 100px; background-image: url(../../img/facebook.jpg); float: left;}
+p{width: 700px; height: 48px; float: left; font-size: 11px; margin-top: 20px; margin-left: 20px; color: #000;}
+
+
+/* footer영역--------------------------------------------------------------- */
+#footer{width: 100%; height: 300px; margin: 0 auto; margin-top: 100px; background-color: #787878;}
+#footer>.logo_01{width: 1200px; height: 138px; background-image: url(../../img/footer_01.jpg); margin: 0 auto;}
+#footer>.info{width: 100%; height: 159px;  background-image: url(../../img/footer_02.jpg); background-repeat: no-repeat; background-position: center; border-top: 3px solid #fff;}
+

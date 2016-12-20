@@ -1,0 +1,55 @@
+/* magazine.css */
+
+#container{min-width: 960px; width:auto; height: auto; margin: 0 auto; /*background-color: #aaa;*/}
+
+/* header영역------------------------------------------------------ */
+#header{min-width: 960px; max-width:1920px; width:auto; height: 100px; background-color: #662727; margin: 0 auto; position: relative;}
+#header::before{content:" "; display: block; width: 100vw; height: 100%; background-color:inherit;
+    position: absolute; z-index: -100; top: 0; left: 50%; margin-left: -50vw;}
+h1{width: 242px; height: 90px; background-image: url(../../img/logo_01.png); background-repeat: no-repeat; margin-left: 380px; float: left; margin-top: 25px;}
+h1>a{width: 242px; height: 90px; display: block;}
+
+nav{width: 840px; height: 100px; float: right; margin-right: 380px;}
+
+nav>.unb{width: 70px; height: 18px; float: right; margin-top: 20px;}
+nav>.unb>li{float: left;}
+nav>.unb>li>a{color: #fff; font-size: 16px;}
+
+nav>.gnb{width: 800px; height: 24px; float: right; margin-top: 36px;}
+nav>.gnb>li{float: left; margin-left: 100px;}
+nav>.gnb>li>a{color: #fff; font-size: 24px;}
+
+
+/*nav>.gnb>li>a:hover{color: #fff; font-weight: bold;}*/
+
+.title_01{width: 500px; height: 1.2rem; font-size: 1.2rem; margin-top: 34px; margin-left: 380px;}
+.title_02{width: 600px; height: 2rem; font-size: 2rem; margin-top: 30px; color: #662727; margin-left: 380px;}
+
+.article{width: 960px; height: 60px; background-color: #f2f2f2; margin: 0 auto; margin-top: 30px; box-sizing: border-box; padding-top: 15px; padding-left: 12px;}
+.article > p{font-size: 1rem; margin-bottom: 30px;}
+
+.mainImg{width: 585px; height: 332px; background-image: url(../../img/magazine/magazine_in_06.png); margin: 0 auto; margin-left: 480px; margin-top: 30px;}
+.explan{width: 960px; height: 100px; /*background-color: #ddd;*/ margin: 0 auto; box-sizing: border-box; padding-top: 10px; padding-left: 16px;}
+.explan>.s_title{width: 960px; height: 20px; font-size: 1.2rem; color: #662727; font-weight: bold; }
+.explan>.s_explan{width: 960px; height: 80px; font-size: 0.9rem; margin-top: 10px;}
+.explan>.s_explan span{font-weight: bold;}
+
+.source{width: 960px; height: 30px; /*background-color: #ddd;*/ margin: 0 auto; margin-top: 180px; font-size: 0.9rem; color: #666; box-sizing: border-box; padding-left: 15px; padding-top: 5px;}
+.source > span{/*font-size: 1rem;*/ font-weight: bold; color: #666;}
+
+.mainImg_02{width: 585px; height: 398px; background-image: url(../../img/magazine/magazine_in_07.png); margin: 0 auto; margin-top: 140px; margin-left: 480px;}
+.explan_02{width: 960px; height: 100px; /*background-color: #ddd;*/ margin: 0 auto; box-sizing: border-box; padding-top: 10px; padding-left: 16px;}
+.explan_02>.s_title_02{width: 960px; height: 20px; font-size: 1.2rem; color: #662727; font-weight: bold;}
+.explan_02>.s_explan_02{width: 960px; height: 80px; font-size: 0.9rem; margin-top: 10px;}
+.explan_02>.s_explan_02 span{font-weight: bold;}
+
+.mainImg_03{width: 585px; height: 377px; background-image: url(../../img/magazine/magazine_in_08.png); margin: 0 auto; margin-top: 90px; margin-left: 480px;}
+.explan_03{width: 960px; height: 100px; /*background-color: #ddd;*/ margin: 0 auto; box-sizing: border-box; padding-top: 10px; padding-left: 16px;}
+.explan_03>.s_title_03{width: 960px; height: 20px; font-size: 1.2rem; color: #662727; font-weight: bold;}
+.explan_03>.s_explan_03{width: 960px; height: 80px; font-size: 0.9rem; margin-top: 10px;}
+.explan_03>.s_explan_03 span{font-weight: bold;}
+
+
+#footer{width: 100%; height: 300px; margin: 0 auto; margin-top: 100px; background-color: #787878;}
+#footer>.logo_01{width: 1200px; height: 138px; background-image: url(../../img/footer_01.jpg); margin: 0 auto;}
+#footer>.info{width: 100%; height: 159px;  background-image: url(../../img/footer_02.jpg); background-repeat: no-repeat; background-position: center; border-top: 3px solid #fff;}

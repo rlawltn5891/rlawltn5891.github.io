@@ -1,0 +1,56 @@
+/* sign_up_01.css */
+
+#container{min-width: 960px; width:auto; height: auto; margin: 0 auto; /*background-color: #aaa;*/}
+
+/* header영역------------------------------------------------------ */
+#header{min-width: 960px; max-width:1920px; width:auto; height: 100px; background-color: #662727; margin: 0 auto; position: relative;}
+#header::before{content:" "; display: block; width: 100vw; height: 100%; background-color:inherit;
+    position: absolute; z-index: -100; top: 0; left: 50%; margin-left: -50vw;}
+h1{width: 242px; height: 90px; background-image: url(../../img/logo_01.png); background-repeat: no-repeat; margin-left: 380px; float: left; margin-top: 25px;}
+h1>a{width: 242px; height: 90px; display: block;}
+
+nav{width: 840px; height: 100px; float: right; margin-right: 380px;}
+
+nav>.unb{width: 70px; height: 18px; float: right; margin-top: 20px;}
+nav>.unb>li{float: left;}
+nav>.unb>li>a{color: #fff; font-size: 16px;}
+
+nav>.gnb{width: 800px; height: 24px; float: right; margin-top: 36px;}
+nav>.gnb>li{float: left; margin-left: 100px;}
+nav>.gnb>li>a{color: #fff; font-size: 24px;}
+
+
+/*nav>.gnb>li>a:hover{color: #fff; font-weight: bold;}*/
+
+.title{width: 250px; height: 22px; margin-top: 110px; margin-left: 471.5px;}
+h2{width: 250px; height: 20px; font-size: 20px; color: #662727;}
+
+#section{width: 960px; height: 154px;  margin: 0 auto; border-top: 3px solid #662727; border-bottom: 3px solid #662727; margin-top: 30px;}
+.s_info{margin-top: 30px; margin-left: 185px; font-size: 1rem;}
+
+
+#section form .box_01{width: 435px; margin-top: 25px; margin-left: 20px; float: left;}
+#section form .box_01 label{width: 150px; height: 36px; font-size: 0.9rem; margin-left: 185px; }
+#section form .box_01 input{width: 132px; height: 30px; background-color: #ebebeb; margin-left: 10px;}
+
+#section form .box_02{width: 220px; float: left; margin-top: 25px;}
+#section form .box_02 label{width: 30px; height: 36px; font-size: 0.9em;}
+#section form .box_02 input{width: 182px; height: 30px; background-color: #ebebeb; margin-left: 15px;}
+
+#section select{width: 120px; height: 30px; background-color: #ebebeb; float: left; margin-top: 25px;}
+
+#btn form{width: 400px; height: 50px; margin: 0 auto;}
+#btn .btn_01{width: 190px; height: 50px; margin-top: 30px; float: left; }
+#btn .btn_01 label{width: 0; height: 0; overflow: hidden; display: block; float: left;}
+#btn .btn_01 input{width: 160px; height: 40px; background-color: #000; color: #fff; font-weight: bold;  float: left;}
+
+#btn .btn_02{width: 190px; height: 50px; margin-top: 30px; float: left; }
+#btn .btn_02 label{width: 0; height: 0; overflow: hidden; display: block; float: left;}
+#btn .btn_02 input{width: 160px; height: 40px; background-color: #662727; color: #fff; font-weight: bold; float: left;}
+
+
+
+/* footer영역--------------------------------------------------------------- */
+#footer{width: 100%; height: 300px; margin: 0 auto; margin-top: 200px; background-color: #787878;}
+#footer>.logo_01{width: 1200px; height: 138px; background-image: url(../../img/footer_01.jpg); margin: 0 auto;}
+#footer>.info{width: 100%; height: 159px;  background-image: url(../../img/footer_02.jpg); background-repeat: no-repeat; background-position: center; border-top: 3px solid #fff;}

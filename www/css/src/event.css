@@ -1,0 +1,83 @@
+/* event.css */
+
+#container{min-width: 960px; width:auto; height: auto; margin: 0 auto; /*background-color: #aaa;*/}
+
+/* header영역------------------------------------------------------ */
+#header{min-width: 960px; max-width:1920px; width:auto; height: 100px; background-color: #662727; margin: 0 auto; position: relative;}
+#header::before{content:" "; display: block; width: 100vw; height: 100%; background-color:inherit;
+    position: absolute; z-index: -100; top: 0; left: 50%; margin-left: -50vw;}
+h1{width: 242px; height: 90px; background-image: url(../../img/logo_01.png); background-repeat: no-repeat; margin-left: 380px; float: left; margin-top: 25px; position: absolute;}
+h1>a{width: 242px; height: 90px; display: block;}
+
+nav{width: 840px; height: 100px; float: right; margin-right: 380px;}
+
+nav>.unb{width: 70px; height: 18px; float: right; margin-top: 20px;}
+nav>.unb>li{float: left;}
+nav>.unb>li>a{color: #fff; font-size: 16px;}
+
+nav>.gnb{width: 800px; height: 24px; float: right; margin-top: 36px;}
+nav>.gnb>li{float: left; margin-left: 100px;}
+nav>.gnb>li>a{color: #fff; font-size: 24px;}
+
+
+/*nav>.gnb>li>a:hover{color: #fff; font-weight: bold;}*/
+
+.title{width: 112px; height: 24px; font-size: 24px; color: #662727; margin-left: 480px; margin-top: 34px;}
+
+.line_box{width: 960px; height: 3px; margin: 0 auto; border-top: 3px solid #662727; margin-top: 30px;}
+
+#article{width: 940px; height: 218px; margin: 0 auto; margin-top: 27px;}
+#article>.a_box_01{width: 724px; height: 218px; background-image: url(../../img/event/event_01.png); float: left;}
+#article .a_box_01 a{width: 724px; height: 218px; display: block;}
+#article>.a_box_02{width: 196px; height: 214px; background-image: url(../../img/event/event_02.png); float: right; border: 2px solid #662727;}
+
+#up_event{width: 940px; height: 400px; margin: 0 auto; margin-top: 40px; }
+
+#up_event .event_01{width: 445px; height: 400px;  float: left;}
+#up_event .event_01 .img_01{width: 445px; height: 350px; background-image: url(../../img/event/event_03.png);}
+#up_event .event_01 .text_01{width: 445px; height: 50px; }
+#up_event .event_01 .text_01>p{width: 390px; height: 50px; font-size: 0.7em; box-sizing: border-box; padding-top: 15px; padding-left: 15px;}
+#up_event .event_01 .go_01{width: 36px; height: 36px; background-color: #662727; color: #fff; float: left; border-radius: 50%; margin-left: 400px; margin-top: -40px;}
+#up_event .event_01 button a{width: 36px; height: 36px; color: #fff; margin-top: 10px; display: block;}
+
+#up_event .event_02{width: 445px; height: 400px;  float: right;}
+#up_event .event_02 .img_02{width: 445px; height: 350px; background-image: url(../../img/event/event_04.png); }
+#up_event .event_02 .text_02{width: 445px; height: 50px;}
+#up_event .event_02 .text_02>p{width: 390px; height: 50px; font-size: 0.7em; box-sizing: border-box; padding-top: 9px; padding-left: 15px;}
+#up_event .event_02 .go_02{width: 36px; height: 36px; background-color: #662727; color: #fff; float: left; border-radius: 50%; margin-left: 400px; margin-top: -40px;}
+#up_event .event_02 button a{width: 36px; height: 36px; color: #fff; margin-top: 10px; display: block;}
+
+
+#dw_event{width: 940px; height: 400px; margin: 0 auto; margin-top: 40px; }
+
+#dw_event .event_03{width: 280px; height: 392px;  float: left; margin-top: 40px;}
+#dw_event .event_03 .img_03{width: 280px; height: 319px; background-image: url(../../img/event/event_05.png);}
+#dw_event .event_03 .text_03{width: 280px; height: 73px; }
+#dw_event .event_03 .text_03>p{width: 225px; height: 73px; font-size: 0.7em; box-sizing: border-box; padding-top: 12px; padding-left: 5px; }
+#dw_event .event_03 .go_03{width: 36px; height: 36px; background-color: #662727; color: #fff; float: left; border-radius: 50%; margin-left: 242px; margin-top: -50px;}
+
+#dw_event .event_04{width: 280px; height: 392px;  float: left; margin-top: 40px; margin-left: 50px;}
+#dw_event .event_04 .img_04{width: 280px; height: 319px; background-image: url(../../img/event/event_06.png);}
+#dw_event .event_04 .text_04{width: 280px; height: 73px; }
+#dw_event .event_04 .text_04>p{width: 234px; height: 73px; font-size: 0.7em; box-sizing: border-box; padding-top: 18px; padding-left: 5px; }
+#dw_event .event_04 .go_04{width: 36px; height: 36px; background-color: #662727; color: #fff; float: left; border-radius: 50%; margin-left: 242px; margin-top: -50px;}
+
+
+#dw_event .event_05{width: 280px; height: 392px; float: left; margin-top: 40px; margin-left: 50px;}
+#dw_event .event_05 .img_05{width: 280px; height: 319px; background-image: url(../../img/event/event_07.png);}
+#dw_event .event_05 .text_05{width: 280px; height: 73px;}
+#dw_event .event_05 .text_05>p{width: 234px; height: 73px; font-size: 0.7em; box-sizing: border-box; padding-top: 16px; padding-left: 5px; }
+#dw_event .event_05 .go_05{width: 36px; height: 36px; background-color: #662727; color: #fff; float: left; border-radius: 50%; margin-left: 242px; margin-top: -50px;}
+
+
+/* footer영역--------------------------------------------------------------- */
+#footer{width: 100%; height: 300px; margin: 0 auto; margin-top: 100px; background-color: #787878;}
+#footer>.logo_01{width: 1200px; height: 138px; background-image: url(../../img/footer_01.jpg); margin: 0 auto;}
+#footer>.info{width: 100%; height: 159px;  background-image: url(../../img/footer_02.jpg); background-repeat: no-repeat; background-position: center; border-top: 3px solid #fff;}
+
+
+
+
+
+
+
