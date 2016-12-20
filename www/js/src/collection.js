@@ -53,3 +53,4 @@
       
 // 배너영역 넘침 숨김처리
 articleBox.css({overflow:'hidden'});
+  });
